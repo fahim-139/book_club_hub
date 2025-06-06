@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantasy Books</title>
+  <link rel="stylesheet" href="css/genre.css" />
+  
+</head>
+<body>
+  <header>
+    
+    <section class="genre-intro">
+     <h1>Fantasy Books</h1>
+      <p>Step into magical worlds filled with dragons, wizards, kingdoms, and epic quests.</p>
+    </section>
+    <div class="search-bar">
+       <input type="text" id="searchInput" placeholder="Search books by title or author..." onkeyup="filterBooks()" />
+    </div>
+  </header><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fantasy Books | Book Club Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  
+
+</head>
+<body>
+  <header class="main-header">
+    <h1 class="logo">Book Club Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fiction.html">Fiction</a>
+      <a href="sci-fi.html">Sci-Fi</a>
+      <a href="romance.html">Romance</a>
+      <a href="fantasy.html">Fantasy</a>
+    </nav>
+  </header>
+
+  <main>
+    
+
+    
+    <section class="book-list-wrapper" id="bookList">
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/51oZneFTrlL._SY445_SX342_.jpg" alt="The Hobbit">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">The Hobbit</h3>
+          <p class="book-author">by J.R.R. Tolkien</p>
+          <p class="book-description">Bilbo Baggins, a comfort-loving hobbit, is swept into an epic quest to reclaim a lost dwarf kingdom from the dragon Smaug.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/5152XTq24+L._SY445_SX342_.jpg" alt="Harry Potter">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">Harry Potter and the Sorcerer's Stone</h3>
+          <p class="book-author">by J.K. Rowling</p>
+          <p class="book-description">An orphan discovers he's a wizard and attends Hogwarts, where he uncovers his magical destiny and a dark past.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/51i7mXy61VL._SY445_SX342_QL70_FMwebp_.jpg" alt="Eragon">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">Eragon</h3>
+          <p class="book-author">by Christopher Paolini</p>
+          <p class="book-description">A farm boy finds a mysterious stone that hatches into a dragon, thrusting him into a world of magic and war.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/51mOzK1tVjL._SY445_SX342_.jpg" alt="The Name of the Wind">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">The Name of the Wind</h3>
+          <p class="book-author">by Patrick Rothfuss</p>
+          <p class="book-description">Kvothe, a gifted young man, grows from a street urchin to a legendary figure through hardship and knowledge.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/61rYqiz8yJL._SY445_SX342_QL70_FMwebp_.jpg" alt="Mistborn">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">Mistborn: The Final Empire</h3>
+          <p class="book-author">by Brandon Sanderson</p>
+          <p class="book-description">A dark world ruled by a god-emperor is turned upside down by a young thief with the power to control metals.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+
+      <div class="book-card">
+        <div class="book-cover">
+          <img src="https://m.media-amazon.com/images/I/61we8FyJbSL._SY445_SX342_QL70_FMwebp_.jpg" alt="A Game of Thrones">
+        </div>
+        <div class="book-info">
+          <h3 class="book-title">A Game of Thrones</h3>
+          <p class="book-author">by George R.R. Martin</p>
+          <p class="book-description">Noble families vie for the Iron Throne in a land where summer lasts decades—and winter can last a lifetime.</p>
+          <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+        </div>
+      </div>
+      <div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/51hAwcG3oNL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Way of Kings">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">The Way of Kings</h3>
+    <p class="book-author">by Brandon Sanderson</p>
+    <p class="book-description">In a storm-wracked world, a broken soldier becomes a legend in a battle for salvation and truth. Book one of the Stormlight Archive.</p>
+    <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+  </div>
+</div>
+
+<div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/51PdxX6fr1L._SY445_SX342_.jpg" alt="The Lies of Locke Lamora">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">The Lies of Locke Lamora</h3>
+    <p class="book-author">by Scott Lynch</p>
+    <p class="book-description">A cunning thief leads a gang of con artists through the gritty streets of Camorr in this dark, witty fantasy adventure.</p>
+    <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+  </div>
+</div>
+
+<div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/41wbhGixAIL._SY445_SX342_QL70_FMwebp_.jpg" alt="Throne of Glass">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">Throne of Glass</h3>
+    <p class="book-author">by Sarah J. Maas</p>
+    <p class="book-description">An imprisoned assassin is offered her freedom if she can win a deadly competition—and uncover a sinister threat to the kingdom.</p>
+    <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+  </div>
+</div>
+
+<div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/61jH5OcyPYL._SY445_SX342_.jpg" alt="The Priory of the Orange Tree">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">The Priory of the Orange Tree</h3>
+    <p class="book-author">by Samantha Shannon</p>
+    <p class="book-description">A sprawling feminist epic of dragons, queens, and ancient evil where kingdoms must unite to stop an age-old terror.</p>
+    <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+  </div>
+</div>
+
+<div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/61Zxem3qIIL._SY445_SX342_QL70_FMwebp_.jpg" alt="Children of Blood and Bone">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">Children of Blood and Bone</h3>
+    <p class="book-author">by Tomi Adeyemi</p>
+    <p class="book-description">In a world where magic was stolen, a young girl fights to bring it back and restore her people’s legacy.</p>
+    <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+  </div>
+</div>
+
+<div class="book-card">
+  <div class="book-cover">
+    <img src="https://m.media-amazon.com/images/I/61pbljMRMlL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Cruel Prince">
+  </div>
+  <div class="book-info">
+    <h3 class="book-title">The Cruel Prince</h3>
+    <p class="book-author">by Holly Black</p>
+    <p class="book-description">Jude, a mortal girl, is thrust into the treacherous world of Faerie, where betrayal and ambition define power and survival.</p>
+    <button class="read-btn" onclick="location.href='login-prompt.html'">Read More</button>
+  </div>
+</div>
+
+    </section>
+  </main>
+
+
+
+    <footer class="main-footer container">
+      <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <p class="copyright">&copy; 2023 Book Club Hub. All rights reserved.</p>
+    </footer>
+
+
+  <script>
+    function filterBooks() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const cards = document.getElementById('bookList').getElementsByClassName('book-card');
+      for (let card of cards) {
+        const content = card.textContent.toLowerCase();
+        card.style.display = content.includes(input) ? '' : 'none';
+      }
+    }
+  </script>
+
+    <form action="../backend/find_book.php" method="POST" style="margin-top: 20px;">
+  <input type="text" name="title" placeholder="Enter full title to find book..." required />
+  <button type="submit">Find Book</button>
+</form>
+</body>
+</html>
+
+
+  
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Romance Books | Book Club Hub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/romance.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <h1 class="logo">Book Club Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="fiction.html">Fiction</a>
+      <a href="sci-fi.html">Sci-Fi</a>
+      <a href="romance.html">Romance</a>
+      <a href="fantasy.html">Fantasy</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="genre-intro">
+      <h2>Romance Books</h2>
+      <p>Discover timeless tales of love, passion, and heartfelt connections.</p>
+    </section>
+
+    <section class="search-filter-bar">
+      <input type="text" id="searchInput" placeholder="Search books by title or author..." onkeyup="filterBooks()" />
+    </section>
+
+    <section class="book-list-wrapper" id="bookList">
+
+  <!-- Existing 8 books -->
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/510K7xiy6SL._SY445_SX342_QL70_FMwebp_.jpg" alt="Pride and Prejudice" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Pride and Prejudice</h3>
+      <p class="book-author">By Jane Austen</p>
+      <p class="book-description">
+        A classic tale set in Regency England, following Elizabeth Bennet as she navigates societal expectations, love, and misunderstandings with the proud Mr. Darcy.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/61XEadq7R9L._SY445_SX342_QL70_FMwebp_.jpg" alt="The Notebook" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Notebook</h3>
+      <p class="book-author">By Nicholas Sparks</p>
+      <p class="book-description">
+        A deeply emotional story of lifelong love and memory, chronicling the romance between Noah and Allie across decades, challenges, and life’s uncertainties.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/41RcepPXgpL._SY445_SX342_QL70_FMwebp_.jpg" alt="Me Before You" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Me Before You</h3>
+      <p class="book-author">By Jojo Moyes</p>
+      <p class="book-description">
+        A heartfelt romance that explores love, loss, and the impact of making difficult choices when Louisa unexpectedly enters Will’s life after a tragic accident.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/7126BdiWSuL._SX342_.jpg" alt="Outlander" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Outlander</h3>
+      <p class="book-author">By Diana Gabaldon</p>
+      <p class="book-description">
+        Time-travel romance blending history and passion as Claire Randall, a WWII nurse, finds herself transported to 18th-century Scotland and torn between two lives.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/41nWb6aqWoL._SY445_SX342_QL70_FMwebp_.jpg" alt="Twilight" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Twilight</h3>
+      <p class="book-author">By Stephenie Meyer</p>
+      <p class="book-description">
+        A modern paranormal romance featuring Bella Swan and vampire Edward Cullen, exploring themes of love, danger, and the supernatural.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/51NckoA5ncL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Rosie Project" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Rosie Project</h3>
+      <p class="book-author">By Graeme Simsion</p>
+      <p class="book-description">
+        A charming and quirky love story about Don, a genetics professor with social difficulties, who creates a scientific survey to find a perfect partner — but love surprises him.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/4111bkkLKpL._SY445_SX342_QL70_FMwebp_.jpg" alt="Eleanor & Park" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Eleanor & Park</h3>
+      <p class="book-author">By Rainbow Rowell</p>
+      <p class="book-description">
+        A tender story of first love between two misfit teenagers in the 1980s, exploring the complexities of family, acceptance, and finding your place.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/51Q+y44Mn1L._SY300_SX300_.jpg" alt="The Kiss Quotient" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Kiss Quotient</h3>
+      <p class="book-author">By Helen Hoang</p>
+      <p class="book-description">
+        A heartfelt and sexy romance featuring Stella, a woman with Asperger’s who hires an escort to help her understand relationships and intimacy — sparking unexpected feelings.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <!-- Added 10 new books -->
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/51YMxWjhf7L._SY445_SX342_QL70_FMwebp_.jpg" alt="Jane Eyre" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Jane Eyre</h3>
+      <p class="book-author">By Charlotte Brontë</p>
+      <p class="book-description">
+        A gothic romance about the strong-willed orphan Jane Eyre and her turbulent love for the mysterious Mr. Rochester, filled with secrets and moral struggles.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/81WSsp23I1L._SX342_.jpg" alt="Anna Karenina" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Anna Karenina</h3>
+      <p class="book-author">By Leo Tolstoy</p>
+      <p class="book-description">
+        A sweeping Russian novel of passion, betrayal, and tragedy following Anna’s doomed love affair and the complexities of Russian high society.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/51jWomcWeVL._SY445_SX342_QL70_FMwebp_.jpg" alt="Sense and Sensibility" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Sense and Sensibility</h3>
+      <p class="book-author">By Jane Austen</p>
+      <p class="book-description">
+        The story of two sisters with contrasting temperaments facing love, heartbreak, and societal pressures in 19th-century England.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/41x0pn4T3fL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Fault in Our Stars" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Fault in Our Stars</h3>
+      <p class="book-author">By John Green</p>
+      <p class="book-description">
+        A poignant young adult love story about two teenagers facing illness, hope, and the bittersweetness of first love.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/517NcNv6x7L._SY445_SX342_QL70_FMwebp_.jpg" alt="Beautiful Disaster" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Beautiful Disaster</h3>
+      <p class="book-author">By Jamie McGuire</p>
+      <p class="book-description">
+        A passionate and intense romance between good girl Abby and bad boy Travis, full of drama, passion, and second chances.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/41y6nsCKA-L._SY445_SX342_QL70_FMwebp_.jpg" alt="Red Queen" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">Red Queen</h3>
+      <p class="book-author">By Victoria Aveyard</p>
+      <p class="book-description">
+        A young woman with a dangerous power is thrust into a world of political intrigue, romance, and rebellion in this fantasy romance thriller.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/412UYfMfgLL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Hating Game" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Hating Game</h3>
+      <p class="book-author">By Sally Thorne</p>
+      <p class="book-description">
+        A witty office romance about two coworkers whose rivalry hides deeper feelings, leading to unexpected passion.
+      </p>
+      <button class="read-btn" onclick="location.href='login.html'">Read More</button>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <div class="book-cover">
+      <img src="https://m.media-amazon.com/images/I/51tWSYoUrjL._SY445_SX342_QL70_FMwebp_.jpg" alt="The Time Traveler's Wife" />
+    </div>
+    <div class="book-info">
+      <h3 class="book-title">The Time Traveler's Wife</h3>
+      <p class="book-author">By Audrey Niffenegger</p>
+      <p class="book-description">
+        A unique love story about Henry, a man with a rare time-traveling condition, and Clare, his wife, whose love endures despite impossible obstacles.
+      </p>
+      <button class="read-btn" onclick="location.href='login-prompt.html'">Read More</button>
+    </div>
+  </div>
+
+  
+
+</section>
+
+
+  </main>
+
+
+      <footer class="main-footer container">
+      <div class="footer-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <p class="copyright">&copy; 2023 Book Club Hub. All rights reserved.</p>
+    </footer>
+
+  <script>
+    function filterBooks() {
+      const input = document.getElementById('searchInput').value.toLowerCase();
+      const cards = document.querySelectorAll('.book-card');
+      cards.forEach(card => {
+        const title = card.querySelector('.book-title').textContent.toLowerCase();
+        const author = card.querySelector('.book-author').textContent.toLowerCase();
+        if (title.includes(input) || author.includes(input)) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+
+
+</section>
+
+</body>
+</html>
